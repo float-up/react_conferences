@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Checkbox test Checkbox render 1`] = `
+<label
+  className="checkbox"
+>
+  <input
+    id="indeterminate-checkbox"
+    onChange={[Function]}
+    type="checkbox"
+  />
+  <span>
+    Ru
+  </span>
+</label>
+`;

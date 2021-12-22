@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Input test Input render 1`] = `
+<div>
+  <input
+    className="inputFilter"
+    onChange={[Function]}
+    placeholder="test"
+    type="text"
+    value=""
+  />
+</div>
+`;

@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ConferenceCard test ConferenceCard render 1`] = `
+<div
+  className="card grey lighten-5"
+>
+  <div
+    className="card-content black-text"
+  >
+    <span
+      className="card-title"
+    >
+      Client rendering, server rendering, pre rendering. The full spectrum of JS website and application perfomance delivery
+    </span>
+    <br />
+    <p
+      className="card-lector"
+    >
+      Guillermo Rauch
+    </p>
+    <br />
+    <p
+      className="card-level"
+    >
+      INTERMEDIATE
+       / 
+      EN
+    </p>
+  </div>
+</div>
+`;

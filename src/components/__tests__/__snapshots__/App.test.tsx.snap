@@ -1,0 +1,535 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`JUG.RU intergrate testing correct rendering App 1`] = `
+<App>
+  <div
+    className="App"
+  >
+    <nav>
+      <div
+        className="nav-wrapper orange lighten-3"
+      >
+        <a
+          className="brand-logo center"
+          href="https://jug.ru"
+        >
+          JUG.RU Confs
+        </a>
+      </div>
+    </nav>
+    <div
+      className="container"
+    >
+      <div
+        className="checkboxes"
+      >
+        <Checkbox
+          checked={false}
+          key="0"
+          onChange={[Function]}
+          text="RU"
+        >
+          <label
+            className="checkbox"
+          >
+            <input
+              checked={false}
+              id="indeterminate-checkbox"
+              onChange={[Function]}
+              type="checkbox"
+            />
+            <span>
+              RU
+            </span>
+          </label>
+        </Checkbox>
+        <Checkbox
+          checked={false}
+          key="1"
+          onChange={[Function]}
+          text="EN"
+        >
+          <label
+            className="checkbox"
+          >
+            <input
+              checked={false}
+              id="indeterminate-checkbox"
+              onChange={[Function]}
+              type="checkbox"
+            />
+            <span>
+              EN
+            </span>
+          </label>
+        </Checkbox>
+        <Checkbox
+          checked={false}
+          key="2"
+          onChange={[Function]}
+          text="HOT"
+        >
+          <label
+            className="checkbox"
+          >
+            <input
+              checked={false}
+              id="indeterminate-checkbox"
+              onChange={[Function]}
+              type="checkbox"
+            />
+            <span>
+              HOT
+            </span>
+          </label>
+        </Checkbox>
+        <Checkbox
+          checked={false}
+          key="3"
+          onChange={[Function]}
+          text="INTERMEDIATE"
+        >
+          <label
+            className="checkbox"
+          >
+            <input
+              checked={false}
+              id="indeterminate-checkbox"
+              onChange={[Function]}
+              type="checkbox"
+            />
+            <span>
+              INTERMEDIATE
+            </span>
+          </label>
+        </Checkbox>
+        <Checkbox
+          checked={false}
+          key="4"
+          onChange={[Function]}
+          text="ADVANCED"
+        >
+          <label
+            className="checkbox"
+          >
+            <input
+              checked={false}
+              id="indeterminate-checkbox"
+              onChange={[Function]}
+              type="checkbox"
+            />
+            <span>
+              ADVANCED
+            </span>
+          </label>
+        </Checkbox>
+        <Checkbox
+          checked={false}
+          key="5"
+          onChange={[Function]}
+          text="HARDCORE"
+        >
+          <label
+            className="checkbox"
+          >
+            <input
+              checked={false}
+              id="indeterminate-checkbox"
+              onChange={[Function]}
+              type="checkbox"
+            />
+            <span>
+              HARDCORE
+            </span>
+          </label>
+        </Checkbox>
+        <Checkbox
+          checked={false}
+          key="6"
+          onChange={[Function]}
+          text="ACADEMIC"
+        >
+          <label
+            className="checkbox"
+          >
+            <input
+              checked={false}
+              id="indeterminate-checkbox"
+              onChange={[Function]}
+              type="checkbox"
+            />
+            <span>
+              ACADEMIC
+            </span>
+          </label>
+        </Checkbox>
+      </div>
+      <div
+        className="row"
+      >
+        <div
+          className="col s10"
+        >
+          <Input
+            onChange={[Function]}
+            placeholder="Search"
+          >
+            <div>
+              <input
+                className="inputFilter"
+                onChange={[Function]}
+                placeholder="Search"
+                type="text"
+                value=""
+              />
+            </div>
+          </Input>
+        </div>
+        <div
+          className="col s2"
+        >
+          <Button
+            disable={true}
+            onClick={[Function]}
+            text="Reset Filters"
+          >
+            <button
+              className="waves-effect waves-light btn-large"
+              disabled={true}
+              onClick={[Function]}
+            >
+              Reset Filters
+            </button>
+          </Button>
+        </div>
+      </div>
+      <div
+        className="row"
+      >
+        <div
+          className="col s6"
+          key="1"
+        >
+          <ConferenceCard
+            confInfo={
+              Object {
+                "id": "1",
+                "lector": "Guillermo Rauch",
+                "title": "Client rendering, server rendering, pre rendering. The full spectrum of JS website and application perfomance delivery",
+                "type": Object {
+                  "lang": "EN",
+                  "level": "INTERMEDIATE",
+                },
+              }
+            }
+          >
+            <div
+              className="card grey lighten-5"
+            >
+              <div
+                className="card-content black-text"
+              >
+                <span
+                  className="card-title"
+                >
+                  Client rendering, server rendering, pre rendering. The full spectrum of JS website and application perfomance delivery
+                </span>
+                <br />
+                <p
+                  className="card-lector"
+                >
+                  Guillermo Rauch
+                </p>
+                <br />
+                <p
+                  className="card-level"
+                >
+                  INTERMEDIATE
+                   / 
+                  EN
+                </p>
+              </div>
+            </div>
+          </ConferenceCard>
+        </div>
+        <div
+          className="col s6"
+          key="2"
+        >
+          <ConferenceCard
+            confInfo={
+              Object {
+                "id": "2",
+                "lector": "Павел Черторогов",
+                "title": "GraphQL-фрагменты на клиенте: История появления, ошибки использования",
+                "type": Object {
+                  "lang": "RU",
+                  "level": "ADVANCED",
+                },
+              }
+            }
+          >
+            <div
+              className="card grey lighten-5"
+            >
+              <div
+                className="card-content black-text"
+              >
+                <span
+                  className="card-title"
+                >
+                  GraphQL-фрагменты на клиенте: История появления, ошибки использования
+                </span>
+                <br />
+                <p
+                  className="card-lector"
+                >
+                  Павел Черторогов
+                </p>
+                <br />
+                <p
+                  className="card-level"
+                >
+                  ADVANCED
+                   / 
+                  RU
+                </p>
+              </div>
+            </div>
+          </ConferenceCard>
+        </div>
+        <div
+          className="col s6"
+          key="3"
+        >
+          <ConferenceCard
+            confInfo={
+              Object {
+                "id": "3",
+                "lector": "Nicolo Ribaudo",
+                "title": "@babel/how-to",
+                "type": Object {
+                  "lang": "EN",
+                  "level": "ADVANCED",
+                },
+              }
+            }
+          >
+            <div
+              className="card grey lighten-5"
+            >
+              <div
+                className="card-content black-text"
+              >
+                <span
+                  className="card-title"
+                >
+                  @babel/how-to
+                </span>
+                <br />
+                <p
+                  className="card-lector"
+                >
+                  Nicolo Ribaudo
+                </p>
+                <br />
+                <p
+                  className="card-level"
+                >
+                  ADVANCED
+                   / 
+                  EN
+                </p>
+              </div>
+            </div>
+          </ConferenceCard>
+        </div>
+        <div
+          className="col s6"
+          key="4"
+        >
+          <ConferenceCard
+            confInfo={
+              Object {
+                "id": "4",
+                "lector": "Дмитрий Пацура",
+                "title": "Разработка компилятора для TypeScript на TypeScript на базе LLVM",
+                "type": Object {
+                  "lang": "RU",
+                  "level": "HARDCORE",
+                },
+              }
+            }
+          >
+            <div
+              className="card grey lighten-5"
+            >
+              <div
+                className="card-content black-text"
+              >
+                <span
+                  className="card-title"
+                >
+                  Разработка компилятора для TypeScript на TypeScript на базе LLVM
+                </span>
+                <br />
+                <p
+                  className="card-lector"
+                >
+                  Дмитрий Пацура
+                </p>
+                <br />
+                <p
+                  className="card-level"
+                >
+                  HARDCORE
+                   / 
+                  RU
+                </p>
+              </div>
+            </div>
+          </ConferenceCard>
+        </div>
+        <div
+          className="col s6"
+          key="5"
+        >
+          <ConferenceCard
+            confInfo={
+              Object {
+                "id": "5",
+                "lector": "Роман Дворнов",
+                "title": "CSS definition syntax",
+                "type": Object {
+                  "lang": "RU",
+                  "level": "HARDCORE",
+                },
+              }
+            }
+          >
+            <div
+              className="card grey lighten-5"
+            >
+              <div
+                className="card-content black-text"
+              >
+                <span
+                  className="card-title"
+                >
+                  CSS definition syntax
+                </span>
+                <br />
+                <p
+                  className="card-lector"
+                >
+                  Роман Дворнов
+                </p>
+                <br />
+                <p
+                  className="card-level"
+                >
+                  HARDCORE
+                   / 
+                  RU
+                </p>
+              </div>
+            </div>
+          </ConferenceCard>
+        </div>
+        <div
+          className="col s6"
+          key="6"
+        >
+          <ConferenceCard
+            confInfo={
+              Object {
+                "id": "6",
+                "lector": "Денис Радин",
+                "title": "Может ли компьютер молиться на благо всех живых существ? Молитва на JavaScript и WebGL",
+                "type": Object {
+                  "lang": "RU",
+                  "level": "ACADEMIC",
+                },
+              }
+            }
+          >
+            <div
+              className="card grey lighten-5"
+            >
+              <div
+                className="card-content black-text"
+              >
+                <span
+                  className="card-title"
+                >
+                  Может ли компьютер молиться на благо всех живых существ? Молитва на JavaScript и WebGL
+                </span>
+                <br />
+                <p
+                  className="card-lector"
+                >
+                  Денис Радин
+                </p>
+                <br />
+                <p
+                  className="card-level"
+                >
+                  ACADEMIC
+                   / 
+                  RU
+                </p>
+              </div>
+            </div>
+          </ConferenceCard>
+        </div>
+        <div
+          className="col s6"
+          key="7"
+        >
+          <ConferenceCard
+            confInfo={
+              Object {
+                "id": "7",
+                "lector": "Дмитрий Волошин",
+                "title": "Карьерная эффективность и карьерный путь в ИТ",
+                "type": Object {
+                  "lang": "EN",
+                  "level": "ACADEMIC",
+                },
+              }
+            }
+          >
+            <div
+              className="card grey lighten-5"
+            >
+              <div
+                className="card-content black-text"
+              >
+                <span
+                  className="card-title"
+                >
+                  Карьерная эффективность и карьерный путь в ИТ
+                </span>
+                <br />
+                <p
+                  className="card-lector"
+                >
+                  Дмитрий Волошин
+                </p>
+                <br />
+                <p
+                  className="card-level"
+                >
+                  ACADEMIC
+                   / 
+                  EN
+                </p>
+              </div>
+            </div>
+          </ConferenceCard>
+        </div>
+      </div>
+    </div>
+  </div>
+</App>
+`;

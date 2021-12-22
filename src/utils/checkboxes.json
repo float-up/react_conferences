@@ -1,0 +1,30 @@
+[
+  {
+    "title": "RU",
+    "type": "lang"
+  },
+  {
+    "title": "EN",
+    "type": "lang"
+  },
+  {
+    "title": "HOT",
+    "type": "level"
+  },
+  {
+    "title": "INTERMEDIATE",
+    "type": "level"
+  },
+  {
+    "title": "ADVANCED",
+    "type": "level"
+  },
+  {
+    "title": "HARDCORE",
+    "type": "level"
+  },
+  {
+    "title": "ACADEMIC",
+    "type": "level"
+  }
+]

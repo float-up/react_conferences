@@ -1,0 +1,65 @@
+[
+  {
+    "id": "1",
+    "title": "Client rendering, server rendering, pre rendering. The full spectrum of JS website and application perfomance delivery",
+    "lector": "Guillermo Rauch",
+    "type": {
+      "level": "INTERMEDIATE",
+      "lang": "EN"
+    }
+  },
+  {
+    "id": "2",
+    "title": "GraphQL-фрагменты на клиенте: История появления, ошибки использования",
+    "lector": "Павел Черторогов",
+    "type": {
+      "level": "ADVANCED",
+      "lang": "RU"
+    }
+  },
+  {
+    "id": "3",
+    "title": "@babel/how-to",
+    "lector": "Nicolo Ribaudo",
+    "type": {
+      "level": "ADVANCED",
+      "lang": "EN"
+    }
+  },
+  {
+    "id": "4",
+    "title": "Разработка компилятора для TypeScript на TypeScript на базе LLVM",
+    "lector": "Дмитрий Пацура",
+    "type": {
+      "level": "HARDCORE",
+      "lang": "RU"
+    }
+  },
+  {
+    "id": "5",
+    "title": "CSS definition syntax",
+    "lector": "Роман Дворнов",
+    "type": {
+      "level": "HARDCORE",
+      "lang": "RU"
+    }
+  },
+  {
+    "id": "6",
+    "title": "Может ли компьютер молиться на благо всех живых существ? Молитва на JavaScript и WebGL",
+    "lector": "Денис Радин",
+    "type": {
+      "level": "ACADEMIC",
+      "lang": "RU"
+    }
+  },
+  {
+    "id": "7",
+    "title": "Карьерная эффективность и карьерный путь в ИТ",
+    "lector": "Дмитрий Волошин",
+    "type": {
+      "level": "ACADEMIC",
+      "lang": "EN"
+    }
+  }
+]
